@@ -1,4 +1,4 @@
-#Tek Yonlu Bağlı Liste Ornek
+# Tek Yonlu Bağlı Liste Ornek
 
 **Ornek Açıklamsı**
 >1.	Onluk tabandaki sayıları 2’lik tabanda göstermek için bir bağlı liste yapısı tanımlanacaktır.
