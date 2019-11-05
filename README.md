@@ -11,6 +11,6 @@ elemanlara erişme dizilere oranla daha hızlı ve kolaydır.
 
 **Yığıt(Stack)**
 >Eleman ekleme çıkarmalarının en usten yapıldığı veri yapısına yığın(stack) denir.Yığıt kullanmak için iki yontem vardır.
-* Dizi kullanmak
+* [Dizi kullanmak](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/StackDizi#dizi-tabanlı-yığıt)
 * Bağlı liste kullanmak
 
