@@ -32,6 +32,23 @@ public class DaireselListe {
         son = null;
 
     }
+    public void cosinusHesapla(double baslamaAcisi){
+        if(baslamaAcisi>=0){
+            while(baslamaAcisi<=360){
+                double deger =Math.toRadians(baslamaAcisi);
+                listeyeEkle(new Eleman((int)baslamaAcisi,Math.cos(deger)));
+                baslamaAcisi++;
+            }
+        }
+        else if(baslamaAcisi<0){
+            while(baslamaAcisi>=-360){
+                double deger =Math.toRadians(baslamaAcisi);
+                listeyeEkle(new Eleman((int)baslamaAcisi,Math.cos(deger)));
+                baslamaAcisi--;
+            }   
+        }
+    
+    }
 
     public void sinusAcisiBaşlat(double baslamaAcisi) {
 
@@ -100,14 +117,24 @@ public class DaireselListe {
 
         ciz.start();
     }
+     public  double  topla(){
+         double toplam=0;
+         Eleman temp=this.bas;
+        for (int i =this.bas.aci ; i <=180; i++) {
+                System.out.println(toplam);
+                toplam+=Math.sin(Math.toRadians(temp.aci));
+                temp=temp.ileri;
+        }
+        return toplam;
+    }
 
     
 
     public static void main(String[] args) {
         DaireselListe daireselListe = new DaireselListe();
-        daireselListe.sinusAcisiBaşlat(90);
-        //daireselListe.ciz(1);
-
+        daireselListe.sinusAcisiBaşlat(0);
+        System.out.println(daireselListe.listele());
+        System.out.println(daireselListe.topla());
         
 
     }
