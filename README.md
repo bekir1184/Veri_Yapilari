@@ -14,3 +14,5 @@ elemanlara erişme dizilere oranla daha hızlı ve kolaydır.
 * [Dizi kullanmak](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/StackDizi#dizi-tabanlı-yığıt)
 * [Bağlı liste kullanmak](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/StackBagliListe#bağlı-liste-ile-yığıtstack-yapısı)
 
+**Yığıt Örnek**
+* [Yığıt postfix örnek]()
