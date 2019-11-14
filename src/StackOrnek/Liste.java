@@ -7,6 +7,7 @@ class Eleman{
     char islem;
     Eleman ileri;
     boolean sayiMi;
+    
     public Eleman(int sayi){
         this.sayi=sayi;
         this.ileri=null;
@@ -17,6 +18,7 @@ class Eleman{
         this.islem=islem;
         sayiMi=false;
     }
+    
 }
 
 public class Liste {
@@ -74,7 +76,7 @@ public class Liste {
                     sonuc=new Eleman(sayi1-sayi2);
                     elemanEkle(sonuc);
                     break;
-                case '*':
+                case '*':                    
                     sayi1=elemanCikar().sayi;
                     sayi2=elemanCikar().sayi;
                     sonuc=new Eleman(sayi1*sayi2);
@@ -99,6 +101,24 @@ public class Liste {
             
         }
     }
+    void stringAl(String str){
+        int i=str.length()-1;
+        while(i>=0){
+            
+            char sayi=str.charAt(i);
+            
+            if(sayi!='0' &&sayi!='1' &&sayi!='2' &&sayi!='3' &&sayi!='4' &&sayi!='5' &&sayi!='6' &&sayi!='7' &&sayi!='8' && sayi!='9'){
+                postfixEkle(new Eleman(sayi));
+            }
+            else{
+                
+                int sayiInt=Integer.parseInt(sayi+"");
+                postfixEkle(new Eleman(sayiInt));
+            }
+            postfixEkle(new Eleman('?'));
+            i--;
+        }
+    }
     
     String  listele(){
         String liste="";
@@ -106,6 +126,7 @@ public class Liste {
         while(tmp!=null){
             liste+="["+tmp.sayi+"]"+"\n";
             tmp=tmp.ileri;
+            
         }
         return liste;
     }
@@ -113,17 +134,12 @@ public class Liste {
     public static void main(String[] args) {
         Liste liste= new Liste();
         Scanner scan= new Scanner(System.in);
-        while(true){
-            String sayi=scan.next();
-            if(sayi.equals("+")||sayi.equals("-")||sayi.equals("*")
-                    ||sayi.equals("/")||sayi.equals("?")||sayi.equals("^")||sayi.equals("!")){
-                liste.postfixEkle(new Eleman(sayi.charAt(0)));
-            }
-            else{
-                liste.postfixEkle(new Eleman(Integer.parseInt(sayi)));
-            }
-            
-        }
+       String gir=scan.nextLine();
+        liste.stringAl(gir);
+        
+       
+       
+       
     }
     
 }
