@@ -22,3 +22,6 @@ elemanlara erişme dizilere oranla daha hızlı ve kolaydır.
 İki şekilde tasarlanabilir.
 * [Dizi Kullanılarak](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/KuyrukDizi)
 * [Bağlı Liste Kullanılarak]()
+
+**Kuyruk Ornek**
+* [Kuyruk kullanılarak atın satranç tahtasındaki en kısa yolunu bulan algoritma](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/kuyruk_ornek#satran%C3%A7-tahtas%C4%B1nda-at%C4%B1n-en-k%C4%B1sa-yol-hesab%C4%B1)
