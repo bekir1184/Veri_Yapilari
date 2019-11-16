@@ -20,5 +20,5 @@ elemanlara erişme dizilere oranla daha hızlı ve kolaydır.
 **Kuyruk**
 >Kuyruklar, eleman eklemelerinin sondan (rear) ve eleman çıkarmalarının baştan (front) yapıldığı doğrusal veri yapılarıdır.
 İki şekilde tasarlanabilir.
-* [Dizi Kullanılarak](https://github.com/bekir1184/Veri_Yapilari/blob/master/src/KuyrukDizi/README.md#kuyruk-dizi)
+* [Dizi Kullanılarak](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/KuyrukDizi)
 * [Bağlı Liste Kullanılarak]()
