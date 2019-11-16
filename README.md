@@ -16,3 +16,9 @@ elemanlara erişme dizilere oranla daha hızlı ve kolaydır.
 
 **Yığıt Örnek**
 * [Yığıt postfix örnek](https://github.com/bekir1184/Veri_Yapilari/tree/master/src/StackOrnek#stack-ornek)
+
+**Kuyruk**
+>Kuyruklar, eleman eklemelerinin sondan (rear) ve eleman çıkarmalarının baştan (front) yapıldığı doğrusal veri yapılarıdır.
+İki şekilde tasarlanabilir.
+* [Dizi Kullanılarak](https://github.com/bekir1184/Veri_Yapilari/blob/master/src/KuyrukDizi/README.md#kuyruk-dizi)
+* [Bağlı Liste Kullanılarak]()
