@@ -1,0 +1,42 @@
+1-Sadece tam sayýlarý tutan bir baðlý listede düðüm ve sýnýf yapýlarýný gösteren
+veri yapýsýsýný verin .booleansýralýmý(BListe L) metodu ile listenin sýralý olup
+olmadýðýný test eden metot yazýnýz.
+2-Kendisine paremetre olorak boolean bir dizi alan ve diziyi O(n) zamanda sýralayarak
+geri döndüren boolean []sirala (boolean []dizi){} metodunu yazýnýz.
+3-Bir yýðýtta tam sayýlar tutulmaktadýr.Bu yýðýtý kendisine paremetre alan ve 
+yýðýttaki tek sayýlarý ayrý bir yýðýta ve çift sayýlarý ayrý bir yýðýta atan 
+metodu yazýnýz.
+4-Bir baðlý liste yapýsý ile tek paremetreye sahip bir polinom (Örn P(x)=x^3+3x^2+5x+10)tutulmak
+isteniyor.Baðlý listedeki her bir düðüm polinomun ilgili teriminin katsayý ve 
+derecesini tutmaktadýr.Buna göre;
+a)Baðlý liste ve düðüm veri yapýsýný veriniz.
+b)Baðlý listeye ekleme iþlemini dereceye göre sýralý yapan kodu veriniz
+c)Kedisine paremetre olarak bir x sayýsý ve baðlý listeyi alarak girilen sayýya
+göre polinomun deðerini hesaplayan metodu yazýnýz.
+5-Öðrenci verisi olarak sadece not bilgisi tutalacaktýr.
+a)Düðüm ve baðlý yýðýt yapýsýný push ve pop metotlarýný ile verin.
+b)Yýðýtýn baðlarý üzeride gezinmeden push ve pop metotlarý kullanarak girilen 
+yýðýt nesnesinin not ort bulan metot.
+6-Kutupahane prog kitaplar içi Kitap adý,yazar adý,Kütüpahane kodu tutulacaktýr
+a)Yukarýdaki bilgileri tutacak bir sýnýf yapýsý
+b)Tanýmlanan tipten en cok 50 elemaný tutacak statik 
+7-Düðüm ve yýðýtý kullanarak öðrecinin adýný soyadýný numarasýný ve notunu tutar ve ekleme ,silme 
+metodunu yazýnýz
+8-Sadece tek yönlü baðlý yapýda öðrencilere iliþkin(Numara,ad ,soyad ve not)
+bilgileri tutulacaktýr.
+a)Düðüm sýnýfýný ve Yýðýt sýnýfýný ekleme ve çýkartma metot kodlarý da olacak þekilde 
+yaýnýz.
+b)Yýðýttaki not ortalamsýný bulan metot yazýnýz.
+9-Öðrencilere ait(Ad soyad,numara ve not)bilgilerini tek yonlu baðlý listede tutlacaktýr
+a)Düðüm ve sýnýf tanýmýný yapýnýz
+b)Bu baðlý listedeki otu e yükse oloan kiþiyi bulup bu düðümü listeden çýkaran
+metodu yazýnýz
+10-Ýkili arama nedir ?Çalýþmasýnýa ornek veriniz
+11-Öðrenci verisi olorak sadece numara ve not bilgileri tutulacaktýr.
+a)En çok 50 veri tutabilecek static yýðýt yapýsný push ve pop metotlarý ile yazýnýz.
+b)Verilen bir yýðýta veriler nota göre büyükten küçüðe doðru sýralý deðil ise yýðýtý
+nota göre küçükten büyüðe sýralý olacak þekilde düzenleyen bir metot yaýnýz.
+* Not :yýðýt elemanlarýna doðrudan eriþilemez.
+12-Nota göre küçükten büyüðe sýralý iki static yýðýt verildiðinde bu iki yýðýtý 
+yine sýralý baðlý liste oluþturulacak
+ 
