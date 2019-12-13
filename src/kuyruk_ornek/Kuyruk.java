@@ -46,9 +46,10 @@ public class Kuyruk {
         return temp;
     }
     
-    
+   
     public boolean bosMu(){
         return (elemanSayisi==0);
     }
+   
 
 }
